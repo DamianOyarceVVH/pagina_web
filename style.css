@@ -32,7 +32,13 @@ body {
 }
 
 .nav img {
+    width: 14em;
     margin-bottom: 1em;
+}
+
+.nav img:hover {
+    transition: all 0.3s;
+    transform: scale(1.08);
 }
 
 .nav p {
@@ -49,6 +55,12 @@ body {
     max-height: 100vh;
     width: 100%;
     box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.info:hover {
+    transform: translatey(-10px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 1);
 }
 
 /* --- MAIN .contenido --- */
@@ -85,13 +97,12 @@ body {
     padding: 3%;
     text-align: start;
     background-color: #efdeb0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
 }
 
 .tarjeta:hover {
     transform: translatey(-10px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 1);
 }
 
 /* --- CONTENT (dentro de TARJETA) --- */
