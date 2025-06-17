@@ -127,6 +127,7 @@ body {
 
 .portada img {
     margin-bottom: 1em;
+    max-width: 100%;
 }
 
 /* --- INFORMACION (dentro de PORTADA) --- */
@@ -146,7 +147,7 @@ body {
 }
 
 .row p {
-    flex: 1 1 120px;      /* Mínimo 250px, crece si hay espacio */
+    flex: 1 1 100px;      /* Mínimo 250px, crece si hay espacio */
     padding: 10px;
     text-align: start;
     display: flex;
@@ -189,6 +190,7 @@ body {
 
 .imagenes img {
     margin-block: 1.5em;
+    max-width: 100%;
 }
 
 /* --- IMAGENES GENERALES EN CONTENT --- */
